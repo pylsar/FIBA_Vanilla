@@ -1,5 +1,6 @@
 // главный файл приложения
-import Test from '@components/Test.js';
+import Ticket from '@components/Ticket.js';
 
 import './styles/settings.scss';
+import './styles/main.scss';
 

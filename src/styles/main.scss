@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  body{
+      background: skyblue;
+  }
+  .logo {
+    background: url("../assets/logo.jpg") no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 65px;
+  }
+  .ticket {
+    display: none;
+  }
+  
+  .showTicket {
+    display: block;
+  }
+  .badTicket {
+    background: red;
+    pointer-events: none;
+  }
+  
