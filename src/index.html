@@ -6,10 +6,46 @@
     <title>my New Project</title>
 </head>
 <body>
-    <div class="container">
-        <h1>FIBA</h1>
+    <header>
+        <span>FIBA</span>
         <div class="logo"></div>
-        <div class="one">dfsgdklgfj</div>
-    </div>
+    </header>
+    <main>
+        <h1>Buy Tickets</h1>
+        <section>
+          <form class="form">
+            <div class="form__field">
+              <label
+                >home
+                <input type="text" class="form__input--home" required />
+              </label>
+              <ul class="form__dropdown form__dropdown--home"></ul>
+            </div>
+            <div class="form__field">
+              <label
+                >guest
+                <input type="text" class="form__input--guest" required />
+              </label>
+              <ul class="form__dropdown form__dropdown--guest"></ul>
+            </div>
+  
+            <div class="form__field">
+              <label
+                >Date
+                <input type="date" class="form__date" required />
+              </label>
+            </div>
+  
+            <button type="submit" class="form__btn">
+              <span>Find Tickets</span>
+            </button>
+          </form>
+        </section>
+        <section class="ticket">
+          <h3 class="ticket__title"></h3>
+          <span class="ticket__date"></span>
+          <span>Не опаздывать, деньги не вернем</span>
+        </section>
+      </main>
 </body>
 </html>
